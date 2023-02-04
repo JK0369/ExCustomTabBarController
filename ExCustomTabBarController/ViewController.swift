@@ -12,15 +12,18 @@ import RxSwift
 import RxCocoa
 
 class ViewController: UIViewController {
-    private let tabBar = CustomTabBar()
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        view.addSubview(tabBar)
-        tabBar.snp.makeConstraints {
-            $0.leading.bottom.trailing.equalToSuperview()
-            $0.top.equalTo(view.snp.bottom).offset(-100)
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        
+        let tabBarController = CustomTabBarController().then {
+            $0.modalPresentationStyle = .fullScreen
         }
+        
+        present(tabBarController, animated: true)
     }
 }

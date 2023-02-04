@@ -47,7 +47,7 @@ final class CustomTabBar: UIView {
     }
     private var buttons = [UIButton]()
     
-    private let items = TabItem.allCases
+    let items = TabItem.allCases
     fileprivate var selectedIndex = 0 {
         didSet {
             buttons
@@ -91,7 +91,7 @@ final class CustomTabBar: UIView {
             .bind(to: rx.selectedIndex)
             .disposed(by: disposeBag)
         
-        backgroundColor = .lightGray.withAlphaComponent(0.3)
+        backgroundColor = .lightGray
         
         addSubview(stackView)
         buttons.forEach(stackView.addArrangedSubview(_:))

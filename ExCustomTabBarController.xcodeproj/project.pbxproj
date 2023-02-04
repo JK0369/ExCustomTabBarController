@@ -15,6 +15,7 @@
 		4AC0C7F4298E2FC3003E32F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4AC0C7F3298E2FC3003E32F0 /* Assets.xcassets */; };
 		4AC0C7F7298E2FC3003E32F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AC0C7F5298E2FC3003E32F0 /* LaunchScreen.storyboard */; };
 		4AC0C7FF298E304F003E32F0 /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AC0C7FE298E304F003E32F0 /* CustomTabBar.swift */; };
+		4AC0C801298E3A04003E32F0 /* CustomTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AC0C800298E3A04003E32F0 /* CustomTabBarController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		4AC0C7F6298E2FC3003E32F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4AC0C7F8298E2FC3003E32F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4AC0C7FE298E304F003E32F0 /* CustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
+		4AC0C800298E3A04003E32F0 /* CustomTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarController.swift; sourceTree = "<group>"; };
 		8681C1257FCB2CD60C41E68B /* Pods-ExCustomTabBarController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExCustomTabBarController.debug.xcconfig"; path = "Target Support Files/Pods-ExCustomTabBarController/Pods-ExCustomTabBarController.debug.xcconfig"; sourceTree = "<group>"; };
 		9BFEAB666D5C1D0BB47086C3 /* Pods-ExCustomTabBarController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExCustomTabBarController.release.xcconfig"; path = "Target Support Files/Pods-ExCustomTabBarController/Pods-ExCustomTabBarController.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -77,6 +79,7 @@
 				4AC0C7EC298E2FC1003E32F0 /* SceneDelegate.swift */,
 				4AC0C7EE298E2FC1003E32F0 /* ViewController.swift */,
 				4AC0C7FE298E304F003E32F0 /* CustomTabBar.swift */,
+				4AC0C800298E3A04003E32F0 /* CustomTabBarController.swift */,
 				4AC0C7F0298E2FC1003E32F0 /* Main.storyboard */,
 				4AC0C7F3298E2FC3003E32F0 /* Assets.xcassets */,
 				4AC0C7F5298E2FC3003E32F0 /* LaunchScreen.storyboard */,
@@ -211,6 +214,7 @@
 			files = (
 				4AC0C7FF298E304F003E32F0 /* CustomTabBar.swift in Sources */,
 				4AC0C7EF298E2FC1003E32F0 /* ViewController.swift in Sources */,
+				4AC0C801298E3A04003E32F0 /* CustomTabBarController.swift in Sources */,
 				4AC0C7EB298E2FC1003E32F0 /* AppDelegate.swift in Sources */,
 				4AC0C7ED298E2FC1003E32F0 /* SceneDelegate.swift in Sources */,
 			);
